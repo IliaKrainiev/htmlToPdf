@@ -1,0 +1,20 @@
+{
+  "name": "pdf-to-html",
+  "version": "1.0.0",
+  "description": "Different solutions to convert pdf to html in nodejs runtime",
+  "main": "index.js",
+  "scripts": {
+    "html-pdf": "node ./html-pdf/index.js",
+    "puppeteer": "node ./puppeteer/index.js"
+  },
+  "author": "iliakrainiev",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "html-pdf": "^2.2.0",
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
